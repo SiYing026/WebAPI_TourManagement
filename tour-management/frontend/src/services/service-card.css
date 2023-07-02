@@ -1,0 +1,19 @@
+
+.service_item{
+    padding: 1rem;
+    border-bottom: ipx solid #faa83586;
+    border-right: 1px solid #faa83586;
+    border-radius: 0.5rem;
+}
+
+
+
+.service_item h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.service_item p{
+    font-size: .9rem;
+    color: var(--text-color);
+}

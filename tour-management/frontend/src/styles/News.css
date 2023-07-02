@@ -1,0 +1,46 @@
+.body{
+    display:inline-block;
+    justify-content:flex-start;
+    background: lightblue;
+    display:contents;
+    }
+    
+    .container my-5{
+        padding: 50px;
+        background: var(--secondary-color);
+        position: relative;
+        display: flex;
+    }
+    
+    .container .card{
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+        margin-top: 100px;
+    }
+    
+    .container .card .col my-3{
+        position: relative;
+        width: 260px;
+        height: 260px;
+        top: -60px;
+        left: 20px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 1.2);
+    }
+    
+    .container .card .card-img-top{
+        max-width: 100%;
+        border-radius: 10px;
+    }
+    .container .card-title{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .container .card-url{
+        color: aquamarine;
+        font-family:sans-serif;
+    
+    }
+    
+    .col my-3px hover img{
+        transform: scale(1.1);
+    }
+    

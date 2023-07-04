@@ -33,18 +33,18 @@ const querystr = `https://pixabay.com/api/?key=${apikey}&category=${category}&q=
 
 
 axios.get(querystr).then( (response) =>{
-    ID = response.data.hits[0].id;
-    Type = response.data.hits[0].type;
-    Tags = response.data.hits[0].tags;
-    PageURL = response.data.hits[0].pageURL;
-    Views = response.data.hits[0].views;
+    ID = response.data.hits[1].id;
+    Type = response.data.hits[1].type;
+    Tags = response.data.hits[1].tags;
+    PageURL = response.data.hits[1].pageURL;
+    Views = response.data.hits[1].views;
 
     imageValue = new connect ({
-        ID:response.data.hits[0].id,
-        Type:response.data.hits[0].type,
-        Tags:response.data.hits[0].tags,
-        PageURL:response.data.hits[0].pageURL,
-        Views:response.data.hits[0].views,
+        ID:response.data.hits[1].id,
+        Type:response.data.hits[1].type,
+        Tags:response.data.hits[1].tags,
+        PageURL:response.data.hits[1].pageURL,
+        Views:response.data.hits[1].views,
     });
 
     imageValue.save().then(result=> {

@@ -22,9 +22,14 @@ const nav_links=[
     display: 'Gallery'
   },
   {
+    path:'/flight',
+    display: 'Flights'
+  },
+  {
     path:'/tours',
     display: 'Tours'
   },
+
   
 ]
 

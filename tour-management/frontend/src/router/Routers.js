@@ -11,6 +11,7 @@ import ThankYou from '../pages/ThankYou';
 import News from '../pages/News';
 import Food from '../pages/Food';
 import Images from '../pages/Images';
+import Flight from '../pages/Flight';
 
 const Routers = () => {
   return (
@@ -23,6 +24,7 @@ const Routers = () => {
         <Route path='/food' element={<Food/>} />
         <Route path='/news' element={<News/>} />
         <Route path='/images' element={<Images/>} />
+        <Route path='/flight' element={<Flight/>} />
         <Route path="/login" element={<Login />} />
         <Route path='/register' element={<Register/>} />
         <Route path='/thank-you' element={<ThankYou/>} />
